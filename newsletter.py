@@ -25,19 +25,8 @@ message = Mail(
     subject = f"Daily Digest for {todays_date}",
     html_content=f"<strong>Good Afternoon Jovan. Here's what's going on today</strong> \
     <p>Here's how some of your favorite stocks opened the day:<br> \
-    {stockPrices()[0]}<br> \
-    {stockPrices()[1]}<br> \
-    {stockPrices()[2]}<br> \
-    {stockPrices()[3]}<br> \
-    {stockPrices()[4]}<br> \
-    {stockPrices()[5]}<br> \
-    {stockPrices()[6]}<br> \
-    {stockPrices()[7]}<br> \
-    {stockPrices()[8]}<br> \
-    {stockPrices()[9]}<br> \
-    {stockPrices()[10]}<br> \
-    {stockPrices()[11]}<br> \
-    {stockPrices()[12]}"
+    {stockPrices()[0]}<br> {stockPrices()[1]}<br> {stockPrices()[2]}<br> {stockPrices()[3]}<br> {stockPrices()[4]}<br> {stockPrices()[5]}<br> \
+    {stockPrices()[6]}<br> {stockPrices()[7]}<br> {stockPrices()[8]}<br> {stockPrices()[9]}<br> {stockPrices()[10]}<br> {stockPrices()[11]}<br> {stockPrices()[12]}</p>"
 )
 
 try:
