@@ -51,4 +51,5 @@ def sendEmail():
   except Exception as e:
       print(e.message)
 
-sendEmail()
+def handler(event, context):
+  sendEmail()
